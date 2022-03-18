@@ -1,0 +1,83 @@
+/***************************/
+/*********MEDIA QUERY*******/
+@media (min-width: 768px){
+    .top-div, .bottom-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.home-divs{
+    width: 30vw;
+}
+
+/* .main-divs{
+    display: flex;
+    flex-direction: column;
+} */
+}
+/*******************************/
+/**********SMALLER SMARTPHONES**/
+@media all and (min-width: 480px) and (max-width: 768px){
+    .home-divs input{
+        width: 100%;
+    }
+}
+/***********************************/
+/*********LAPTOPS, LARGE TABLETS AND SMALL DESKTOPS***/
+/* @media all and (min-width: 1024px) and (max-width: 1280px){
+
+    }
+} */
+/**************************/
+/********LAYOUT***********/
+/*******HOME PAGE*****/
+.home-divs{
+    border: 1px solid rgb(61, 94, 66);
+    color: #000;
+    margin: 10px 20px;
+    height: 55vh; 
+} 
+.home-header{
+    border-bottom: 1px solid #000;
+}
+.bold{
+    font-weight: bold;
+}
+.home-divs input{
+    margin: 0;  
+    border: none;
+    border-radius: 0;
+    border: 1px solid green;
+    height: 2vh;
+}
+
+span{
+    margin-bottom: 5px;
+}
+/*****************************/
+/**********LOAN CALCULATOR****/
+/*****************************/
+#loan-calc, #user-account, #contributions, #user-loan{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#user-loan, #contributions{
+    display: flex;
+    justify-content: space-around;
+}
+/*******************************/
+/**********USER ACCOUNT*********/
+/********************************/
+.user-profile{
+    margin-left: 20px;
+}
+.user{
+    background: lightblue;
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 70px;
+    height: 70px;
+}

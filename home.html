@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+    <div class="main">
+        <header id="header">
+            <div id="logo">
+                <a href="index.html"><img src="Images/sacco-logo.jpg" alt="Nyandarua County Sacco Logo"></a>
+            </div>
+            <div class="main-divs">
+                <section class="user-profile">
+                    <div class="user"></div>
+                    <span>Welcome User</span>
+                </section>
+                <div class="top-div">
+                    <section id="user-account" class="home-divs">
+                        <span class="home-header">MY ACCOUNT</span>
+
+                    </section>
+                    <section id="contributions" class="home-divs">
+                        <span class="home-header">CONTRIBUTION SUMMARY</span>
+                        <span class="bold">Total Shares</span>
+                        <span >0.00</span>
+                        <span class="bold">Total amount due</span>
+                        <span >0.00</span>
+                        <span class="bold">Balance</span>
+                        <button class="btn">View full statement</button>
+                    </section>
+        </div>
+        <div class="bottom-div">
+            <section id="loan-calc" class="home-divs">
+                <span class="home-header">LOAN CALCULATOR</span>
+                <span class="bold">Monthly Repayment(KES)</span>
+                <span id="total-monthly">0.00</span>
+                <span class="bold">Loan Amount (KES)</span>
+                <input id="loan-input" type="text" placeholder="e.g. 200000">
+                <span class="bold">Monthly Interest Rate (%)</span>
+                <span>1.5% reducing balance</span>
+                <span class="bold">Term(Months)</span>
+                <input id="months-number" type="number" min="1" max="24"> 
+                <button  id="loan-btn"class="btn">Loan payment</button>
+            </section>
+                <section id="user-loan" class="home-divs">
+                    <span class="home-header">LOAN BALANCES</span>
+                    <span class="bold">Loaned Out</span>
+                    <span >0.00</span>
+                    <span class="bold">Total repaid (KES)</span>
+                    <span >0.00</span>
+                    <span class="bold">Pending Loan Balance</span>
+                    <span >0.00</span>
+                </section>
+        </div>       
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
